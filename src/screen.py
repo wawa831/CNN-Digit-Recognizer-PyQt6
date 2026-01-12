@@ -81,7 +81,7 @@ class DigitRecognizer(QWidget):
         right_layout = QVBoxLayout()
         self.result_label = QLabel("?")
         self.result_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self.result_label.setStyleSheet("font-size: 100px; color: #5cb85c; font-weight: bold;")
+        self.result_label.setStyleSheet("font-size: 100px; color: #FFFFFF; font-weight: bold;")
 
         btn_predict = QPushButton("识别数字")
         btn_predict.setStyleSheet("background-color: #5bc0de; padding: 15px; font-size: 18px; border-radius: 5px;")
